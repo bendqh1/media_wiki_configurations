@@ -29,5 +29,5 @@
 
 ## Wildcard redirect for CloudFlare
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^yourdomain.com [NC]
-RewriteRule ^(.*)$ http://www.yourdomain.com/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^EXAMPLE.COM [NC]
+RewriteRule ^(.*)$ http://www.EXAMPLE.COM/$1 [L,R=301]
