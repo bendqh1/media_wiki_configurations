@@ -1,1 +1,1 @@
-$wgResourceBasePath = $wgScriptPath;
+    $wgResourceBasePath = $wgScriptPath;
